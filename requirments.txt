@@ -3,7 +3,9 @@ paddleocr==2.5
 pyttsx3==2.90
 Pillow==9.0.0
 werkzeug==2.0.1
-numpy>=1.21.0  # Required by paddleocr
-opencv-python>=4.5.0  # Required by paddleocr
-shapely>=1.7.1  # Required by paddleocr
-python-dotenv>=0.19.0  # Optional for environment variables
+gunicorn==20.1.0
+numpy==1.21.0
+opencv-python-headless==4.5.5.64
+shapely==1.8.2
+python-dotenv==0.19.0
+paddlepaddle==2.4.2  # Explicitly add this
