@@ -1,0 +1,9 @@
+Flask==2.0.1
+paddleocr==2.5
+pyttsx3==2.90
+Pillow==9.0.0
+werkzeug==2.0.1
+numpy>=1.21.0  # Required by paddleocr
+opencv-python>=4.5.0  # Required by paddleocr
+shapely>=1.7.1  # Required by paddleocr
+python-dotenv>=0.19.0  # Optional for environment variables

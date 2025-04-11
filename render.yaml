@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: vision-speak
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    plan: free
