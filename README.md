@@ -8,7 +8,7 @@ A web-based tool that converts images to speech using Optical Character Recognit
 
 <div align="center">
   <!-- Replace with your demo GIF -->
-  <img src="assets/page.png" alt="vision-speak Demo" width="800">
+  <img src="assets\page.png" alt="vision-speak Demo" width="800">
 </div>
 
 ## ✨ Features
