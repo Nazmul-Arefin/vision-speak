@@ -8,7 +8,7 @@ A web-based tool that converts images to speech using Optical Character Recognit
 
 <div align="center">
   <!-- Replace with your actual screenshot -->
-  <img src="assets/demo-screenshot.png" alt="Vision Speak Interface" width="800">
+  <img src="assets/page.png" alt="Vision Speak Interface" width="800">
 </div>
 
 ## ✨ Features
@@ -34,7 +34,7 @@ A web-based tool that converts images to speech using Optical Character Recognit
 ### Basic Setup
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/vision-speak.git
+git clone https://github.com/Nazmul-Arefin/vision-speak
 cd vision-speak
 
 # Create virtual environment
