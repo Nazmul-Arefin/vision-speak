@@ -1,27 +1,46 @@
-# Vision Speak - OCR + TTS System
+# 👁️🗨️ Vision Speak - OCR + TTS System 
 
-![Vision Speak Screenshot](static/screenshot.png) <!-- Add a screenshot if available -->
 
-A web-based tool that converts images to speech using Optical Character Recognition (OCR) and Text-to-Speech (TTS) technology. Supports English and Chinese.
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 
-## Features
 
-- Drag & drop image upload (JPG/PNG)
-- Multi-language support (English/Chinese)
-- Text extraction with bounding box visualization
-- Text-to-speech conversion
-- Downloadable results (text, processed image, audio)
+A web-based tool that converts images to speech using Optical Character Recognition (OCR) and Text-to-Speech (TTS) technology. Supports **English** and **Chinese**.
 
-## Technology Stack
+<div align="center">
+  <!-- Replace with your actual screenshot -->
+  <img src="assets/demo-screenshot.png" alt="Vision Speak Interface" width="800">
+</div>
 
-- **Backend**: Python Flask
-- **OCR**: PaddleOCR
-- **TTS**: pyttsx3
-- **Frontend**: HTML5, CSS3, JavaScript
+## ✨ Features
 
-## Installation
+- 🖱️ **Drag & drop** image upload (JPG/PNG)
+- 🌐 **Multi-language support** (English/中文)
+- 🔍 **Text extraction** with bounding box visualization
+- 🔊 **Text-to-speech** conversion
+- 📥 **Downloadable results** (text, processed image, audio)
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/vision-speak.git
-   cd vision-speak
+## 🛠️ Technology Stack
+
+| Component | Technology |
+|-----------|------------|
+| Backend | Python Flask |
+| OCR Engine | PaddleOCR |
+| TTS Engine | pyttsx3 |
+| Frontend | HTML5, CSS3, JavaScript |
+| Hosting | Streamlit/Heroku |
+
+## 🚀 Installation
+
+### Basic Setup
+```bash
+# Clone repository
+git clone https://github.com/yourusername/vision-speak.git
+cd vision-speak
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+.\venv\Scripts\activate   # Windows
+
+# Install dependencies
+pip install -r requirements.txt
