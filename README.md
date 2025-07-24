@@ -7,8 +7,8 @@
 A web-based tool that converts images to speech using Optical Character Recognition (OCR) and Text-to-Speech (TTS) technology. Supports **English** and **Chinese**.
 
 <div align="center">
-  <!-- Replace with your actual screenshot -->
-  <img src="assets/page.png" alt="Vision Speak Interface" width="800">
+  <!-- Replace with your demo GIF -->
+  <img src="assets/page.png" alt="vision-speak Demo" width="800">
 </div>
 
 ## ✨ Features
